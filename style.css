@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F0F2F5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img {
+    width: 250px;
+    margin-top: 40PX;
+}
+
+.container2 {
+    font-size: small;
+    font-weight: 300px;
+    background-color: white;
+    width: 396px;
+    margin: auto;
+    padding: 0 0 14px 0;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 30px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+
+}
+
+.container2 input {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 30px;
+    border-color:0.01px azure;
+}
+
+input:hover {
+    border-color: #156FE5;
+}
+
+.container2 button {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 23px;
+}
+
+.question {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 138px;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.text {
+    font-weight: 300;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.email {
+    width: 350px;
+    height: 45px;
+}
+
+.password {
+    width: 350px;
+    height: 45px;
+    margin-top: 10px;
+}
+
+.button {
+    color: #F0F2F5;
+    background-color: #156FE5;
+    width: 350px;
+    height: 45px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: large;
+}
